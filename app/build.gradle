@@ -1,0 +1,22 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.dhascaev.hfftl'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.dhascaev.hfftl"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+    }
+}
